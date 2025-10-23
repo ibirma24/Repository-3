@@ -209,3 +209,5 @@ __marimo__/
 # Project-specific generated files
 output_*.jpg
 output_*.png
+comparison_results.png
+keypoint_comparison.png
