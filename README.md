@@ -25,7 +25,24 @@ Dependencies include:
 
 ## Usage
 
-### Generate Test Image
+### Quick Start
+
+For a complete workflow that runs all parts automatically:
+
+```bash
+python3 quickstart.py
+```
+
+This will:
+1. Check dependencies
+2. Generate the test image
+3. Run blob detection (Parts 1, 2, and 3)
+4. Run tests
+5. Create visualizations
+
+### Manual Execution
+
+#### Generate Test Image
 
 First, generate the test image with circles of various sizes:
 
@@ -44,6 +61,22 @@ python3 blob_detection.py
 ```
 
 This script runs all three parts of the assignment and generates output images showing detected keypoints.
+
+### Run Tests
+
+To validate the implementation:
+
+```bash
+python3 test_blob_detection.py
+```
+
+### Create Visualizations
+
+To generate comparison images:
+
+```bash
+python3 visualize_results.py
+```
 
 ## Part 1: Blob Detection
 
